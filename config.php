@@ -2,7 +2,7 @@
 $dbhost='localhost';
 $dbuser='root';
 $dbpassword='';
-$dbname='integra';
+$dbname='sys';
 
 $conexao=new mysqli($dbhost,$dbuser,$dbpassword,$dbname);
 
