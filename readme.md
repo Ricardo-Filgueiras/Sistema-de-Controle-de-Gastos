@@ -1,6 +1,6 @@
-#Sistema simples ,mas muito versátil ,de acompanhamento e controle de gastos
+<h1>Sistema simples ,mas muito versátil ,de acompanhamento e controle de gastos<h1></h1>
 <br>
-<h1>Este projetos possui algumas funções do tipo:</h1>
+<h2>Este projetos possui algumas funções do tipo:</h2>
 <ul>
 <li>Cadastro de Usuários</li>
 <li>Inserção de dados</li>
@@ -9,7 +9,7 @@
 <li>soma dos gastos</li>
 
 </ul>
-<h1>O que faço para conseguir usar o Projeto?</h1>
+<h2>O que faço para conseguir usar o Projeto?</h2>
 <p>Para usar o projeto é necessário:</p>
 <ul>
 <li>ter um servidor ,podendo ser local</li>
