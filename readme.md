@@ -18,6 +18,7 @@
 <p>Você pode usar o comando a seguir para fazer a criação do banco de dados e das tabelas</p>
  <br>
 <p>
+ //o projeto está configurado pra conectar com o bd nomeado sys
  create database sys;
  <br>
 use sys;
@@ -35,7 +36,7 @@ cidade varchar(45) not null,
 estado varchar(45) not null,
 endereco varchar(45) not null
 );
-<br>
+<br><br>
 create table contas(
 id int(11) primary key not null auto_increment,
 idUsuario int(11) not null,
