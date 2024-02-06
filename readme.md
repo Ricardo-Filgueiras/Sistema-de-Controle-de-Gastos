@@ -19,24 +19,34 @@
  <br>
 <p>
  //o projeto está configurado pra conectar com o bd nomeado sys
+ <br>
  create database sys;
  <br>
 use sys;
 <br>
 
 create table usuarios(
-id int(11) not null primary key auto_increment ,
+<br>
+id int(11) not null primary key auto_increment ,<br>
 nome varchar(35) not null,
+<br>
 senha varchar(45) not null,
+<br>
 email varchar(110) not null,
+<br>
 telefone  varchar(15) not null,
+<br>
 sexo varchar(15) not null,
+<br>
 data_nasc date not null,
+<br>
 cidade varchar(45) not null,
+<br>
 estado varchar(45) not null,
-endereco varchar(45) not null
+<br>
+endereco varchar(45) not null<br>
 );
-<br><br>
+
 create table contas(
 id int(11) primary key not null auto_increment,
 idUsuario int(11) not null,
