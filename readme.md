@@ -15,7 +15,11 @@
 <li>ter um servidor ,podendo ser local</li>
 <li>ter um Banco de Dados instalado ,para o acesso e a manipulção de dados</li>
 <li>As tabelas do banco de dados devem ser criadas com schema preparado para o projeto ,mostrado logo abaixo</li>
-<p>Você pode usar o comando a seguir para fazer a criação do banco de dados e das tabelas</p>
+ <br>
+ <p>
+ O usuário pode pode importar o vardump nomeado dumpSys.sql,para seu sgbd,já com as queries necessárias para a criação do banco de dados e das tabelas</p>
+ <br>
+<p>>Ou então se caso deseje fazer manualmente,o usuário pode copiar e colar as queries abaxio para a criação do banco de dados e das tableas</p>
  <br>
 <p>
 
@@ -66,8 +70,7 @@ vencimento date not null,
 <br>
 
 );</p>
-<p>O usuário pode copiar e colar as queries acima pra criação do banco de dados e das tableas,
- Ou então pode importar o vardump nomeado dumpSys.sql,para seu dgbd</p>
+
 
 </ul>
 <p>Caso deseje o Usuário pode alterar os dados da conexão com o banco de dados atráves do arquivo config.php</p>
