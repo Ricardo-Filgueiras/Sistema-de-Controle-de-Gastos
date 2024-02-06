@@ -7,7 +7,7 @@
 <li>alteração de dados</li>
 <li>remoção de dados</li>
 <li>soma dos gastos</li>
-
+</ul>
 
 <h2>O que faço para conseguir usar o Projeto?</h2>
 <p>Para usar o projeto é necessário:</p>
@@ -21,6 +21,7 @@
  <br>
 <li>Ou então se caso deseje fazer manualmente,o usuário pode copiar e colar as queries abaxio para a criação do banco de dados e das tableas</li>
  <br>
+ </ul>
 <p>
 
  <br>
@@ -72,7 +73,7 @@ vencimento date not null,
 );</p>
 
 
-
+<ul>
 <li>Caso deseje o Usuário pode alterar os dados da conexão com o banco de dados atráves do arquivo config.php</li>
 <li>Feito isso o proejto ja estará pronto para uso</li>
 </ul>
