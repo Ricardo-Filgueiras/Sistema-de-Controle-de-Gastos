@@ -18,7 +18,7 @@
 <p>Você pode usar o comando a seguir para fazer a criação do banco de dados e das tabelas</p>
  <br>
 <p>
- //o projeto está configurado pra conectar com o bd nomeado sys
+
  <br>
  create database sys;
  <br>
@@ -49,17 +49,26 @@ endereco varchar(45) not null<br>
 
 create table contas(
 id int(11) primary key not null auto_increment,
+<br>
 idUsuario int(11) not null,
+<br>
 titulo varchar(45) not null,
+<br>
 tipo varchar(45) not null,
+<br>
 categoria varchar(45) not null,
+<br>
 valor decimal(9,2) not null,
+<br>
 vencimento date not null,
+<br>
  foreign key (idUsuario) references usuarios(id)
 <br>
 
 );</p>
-<p>Ou então pode importar o vardump nomeado dumpSys.sql,para seu dgbd</p>
+<p>O usuário pode copiar e colar as queries acima pra criação do banco de dados e das tableas,
+ Ou então pode importar o vardump nomeado dumpSys.sql,para seu dgbd</p>
 
 </ul>
+<p>Caso deseje o Usuário pode alterar os dados da conexão com o banco de dados atráves do arquivo config.php</p>
 <p>Feito isso o proejto ja estará pronto para uso</p>
