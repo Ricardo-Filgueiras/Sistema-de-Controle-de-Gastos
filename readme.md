@@ -45,6 +45,6 @@ vencimento date not null,
 
 
 );</p>
-<p>Ou então pode importar o vardump nomeado dumSys.sql</p>
+<p>Ou então pode importar o vardump nomeado dumpSys.sql</p>
 
 </ul>
