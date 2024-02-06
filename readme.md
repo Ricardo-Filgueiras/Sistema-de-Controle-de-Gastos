@@ -8,7 +8,7 @@
 <li>remoção de dados</li>
 <li>soma dos gastos</li>
 
-</ul>
+
 <h2>O que faço para conseguir usar o Projeto?</h2>
 <p>Para usar o projeto é necessário:</p>
 <ul>
@@ -16,10 +16,10 @@
 <li>ter um Banco de Dados instalado ,para o acesso e a manipulção de dados</li>
 <li>As tabelas do banco de dados devem ser criadas com schema preparado para o projeto ,mostrado logo abaixo</li>
  <br>
- <p>
- O usuário pode pode importar o vardump nomeado dumpSys.sql,para seu sgbd,já com as queries necessárias para a criação do banco de dados e das tabelas</p>
+ <li>
+ O usuário pode pode importar o vardump disponível nos arquivos do projeto, nomeado dumpSys.sql,para seu sgbd,já com as queries necessárias para a criação do banco de dados e das tabelas</li>
  <br>
-<p>>Ou então se caso deseje fazer manualmente,o usuário pode copiar e colar as queries abaxio para a criação do banco de dados e das tableas</p>
+<li>Ou então se caso deseje fazer manualmente,o usuário pode copiar e colar as queries abaxio para a criação do banco de dados e das tableas</li>
  <br>
 <p>
 
@@ -73,5 +73,6 @@ vencimento date not null,
 
 
 </ul>
-<p>Caso deseje o Usuário pode alterar os dados da conexão com o banco de dados atráves do arquivo config.php</p>
-<p>Feito isso o proejto ja estará pronto para uso</p>
+<li>Caso deseje o Usuário pode alterar os dados da conexão com o banco de dados atráves do arquivo config.php</li>
+<li>Feito isso o proejto ja estará pronto para uso</li>
+</ul>
