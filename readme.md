@@ -72,7 +72,7 @@ vencimento date not null,
 );</p>
 
 
-</ul>
+
 <li>Caso deseje o Usuário pode alterar os dados da conexão com o banco de dados atráves do arquivo config.php</li>
 <li>Feito isso o proejto ja estará pronto para uso</li>
 </ul>
