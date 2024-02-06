@@ -16,9 +16,12 @@
 <li>ter um Banco de Dados instalado ,para o acesso e a manipulção de dados</li>
 <li>As tabelas do banco de dados devem ser criadas com schema preparado para o projeto ,mostrado logo abaixo</li>
 <p>Você pode usar o comando a seguir para fazer a criação do banco de dados e das tabelas</p>
-<p>create database sys;
+ <br>
+<p>
+ create database sys;
+ <br>
 use sys;
-
+<br>
 
 create table usuarios(
 id int(11) not null primary key auto_increment ,
@@ -32,7 +35,7 @@ cidade varchar(45) not null,
 estado varchar(45) not null,
 endereco varchar(45) not null
 );
-
+<br>
 create table contas(
 id int(11) primary key not null auto_increment,
 idUsuario int(11) not null,
@@ -42,9 +45,10 @@ categoria varchar(45) not null,
 valor decimal(9,2) not null,
 vencimento date not null,
  foreign key (idUsuario) references usuarios(id)
-
+<br>
 
 );</p>
-<p>Ou então pode importar o vardump nomeado dumpSys.sql</p>
+<p>Ou então pode importar o vardump nomeado dumpSys.sql,para seu dgbd</p>
 
 </ul>
+<p>Feito isso o proejto ja estará pronto para uso</p>
